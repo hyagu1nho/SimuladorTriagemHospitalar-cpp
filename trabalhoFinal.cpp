@@ -38,7 +38,7 @@ int main() {
             cin >> p.senha >> p.prioridade >> hh >> mm;
             
             if (hh < 0 || hh > 23 || mm < 0 || mm > 59) {
-                cerr << "Horário inválido: " << hh << ":" << mm << endl;
+                cerr << "Horario invalido: " << hh << ":" << mm << endl;
                 continue;
             }
             
